@@ -1,0 +1,164 @@
+@media(min-width:1200px) {
+    .section-4 .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px)and (min-width:769px) {
+    .col-md-4 {
+        width: 100%;
+    }
+
+    .section-4 .card {
+        width: 22em;
+    }
+}
+
+@media(max-width:768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    .section-2 .cover {
+        background-position: 0vmin 0vmin !important;
+    }
+
+    .numbers .rect {
+        width: 10rem;
+        height: 8rem;
+    }
+
+    .numbers .rect h1 {
+        font-size: 2rem;
+    }
+
+    .section-3 {
+        height: inherit;
+        padding: 10vmin !important;
+    }
+
+    .section-3 .row h1 {
+        padding: 6vmin 4vmin;
+    }
+
+    .section-3 .platform .col-md-5 {
+        text-align: center !important;
+    }
+
+    .section-3 .desktop i {
+        font-size: 8vmin;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: -0.4rem
+    }
+
+    .section-4 .team {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+
+    .section-4 .col-md-4 {
+
+        width: 100%;
+    }
+
+    .section-4 .carousel-item {
+        padding-left: 0rem;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
+    footer .column {
+        display: flex;
+    }
+}
+
+@media (max-width:431px) {
+    .section-4 .carousel-item {
+        padding-left: 0rem;
+    }
+
+    header .row .col-md-7 {
+        padding-bottom: 4vmin;
+
+    }
+
+    .col-12 {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (max-width:415px) {
+    .section-4 .carousel-inner {
+        width: 22rem;
+    }
+
+    header .row .col-md-7 {
+        padding-bottom: 5vmin;
+
+    }
+
+
+    .section-4 .carousel-item {
+        padding-left: 0rem;
+    }
+
+}
+
+@media (max-width:376px) {
+    .section-4 .card {
+        width: 19em;
+
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -9vmin;
+    }
+
+    header .row .col-md-7 {
+        padding-bottom: 9vmin;
+
+    }
+}
+
+@media (max-width: 361px) {
+    .section-4 .carousel-item {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .section-4 .card {
+        width: 18em;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -17vmin;
+    }
+}
+
+@media (max-width: 281px) {
+    .section-4 .card {
+        width: 15em;
+    }
+
+    .section-4 .carousel-inner {
+        margin-left: -23vmin;
+    }
+}
